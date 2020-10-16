@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dit.ksu.ac.appminisqlite.MainActivity">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.28"
+        android:text="เพิ่มบันทึก"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+    <EditText
+        android:id="@+id/titleeditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.00"
+        android:ems="10"
+        android:hint="ระบุชื่อเรื่อง"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/detaileditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="ระบุรายละเอียด"
+        android:inputType="textMultiLine" />
+    <EditText
+        android:id="@+id/dateeditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="dd/mm/YYYY"
+        android:inputType="date" />
+    <Button
+        android:id="@+id/btnaddmem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="บันทึก" />
+</LinearLayout>
